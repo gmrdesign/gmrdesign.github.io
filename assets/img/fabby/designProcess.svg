@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1026px" height="315px" viewBox="0 0 1026 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-206.000000, -9587.000000)">
+            <g id="Group-13" transform="translate(194.000000, 9588.000000)">
+                <path d="M812.730975,152 L1030.75456,152" id="Line" stroke="#9ED9D0" stroke-width="2" stroke-linecap="square"></path>
+                <text id="User-Research-+-Prob" font-family="FranklinGothic-Medium, Franklin Gothic Medium" font-size="22" font-weight="normal" fill="#404040">
+                    <tspan x="33.9144587" y="111">User </tspan>
+                    <tspan x="10.7220759" y="136">Research</tspan>
+                    <tspan x="48.4164118" y="161">+</tspan>
+                    <tspan x="14.9222712" y="186">Problem </tspan>
+                    <tspan x="24.0692438" y="211">Define</tspan>
+                </text>
+                <text id="1st-Design-Iteration" font-family="FranklinGothic-Medium, Franklin Gothic Medium" font-size="22" font-weight="normal" fill="#404040">
+                    <tspan x="284.13756" y="151">1st Design</tspan>
+                    <tspan x="294.4984" y="176">Iteration</tspan>
+                </text>
+                <text id="2nd-Design-Iteration" font-family="FranklinGothic-Medium, Franklin Gothic Medium" font-size="22" font-weight="normal" fill="#404040">
+                    <tspan x="492.649901" y="151">2nd Design</tspan>
+                    <tspan x="506.351561" y="176">Iteration</tspan>
+                </text>
+                <text id="Customer-Acquisition" font-family="FranklinGothic-Medium, Franklin Gothic Medium" font-size="22" font-weight="normal" fill="#404040">
+                    <tspan x="942.049805" y="96">Customer </tspan>
+                    <tspan x="935.540039" y="121">Acquisition</tspan>
+                </text>
+                <text id="3rd-Design-Iteration" font-family="FranklinGothic-Medium, Franklin Gothic Medium" font-size="22" font-weight="normal" fill="#404040">
+                    <tspan x="686.26601" y="151">3rd Design</tspan>
+                    <tspan x="697.6581" y="176">Iteration</tspan>
+                </text>
+                <ellipse id="Oval-2" stroke="#FF8200" stroke-width="2" cx="288.546624" cy="155.778802" rx="136.264737" ry="64.9078341"></ellipse>
+                <ellipse id="Oval-2" stroke="#F8E81C" stroke-width="2" cx="393.499464" cy="155.778802" rx="242.377278" ry="115.391705"></ellipse>
+                <ellipse id="Oval-2" stroke="#9ED9D0" stroke-width="2" cx="479.897106" cy="156.5" rx="328.77492" ry="156.5"></ellipse>
+                <circle id="Oval" fill="#FF8200" cx="423" cy="155" r="10"></circle>
+                <circle id="Oval" fill="#9ED9D0" cx="152" cy="155" r="10"></circle>
+                <circle id="Oval" fill="#F8E81C" cx="634" cy="155" r="10"></circle>
+                <circle id="Oval" fill="#9AD5CD" cx="807" cy="155" r="10"></circle>
+                <circle id="Oval" fill="#9AD5CD" cx="990" cy="155" r="10"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

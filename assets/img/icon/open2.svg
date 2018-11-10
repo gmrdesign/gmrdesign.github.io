@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="80px" viewBox="0 0 148 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-653.000000, -848.000000)">
+            <g id="Group-2" transform="translate(652.000000, 848.000000)">
+                <rect id="Rectangle-27" fill="#F0F0F0" x="10" y="0" width="139" height="70"></rect>
+                <g id="Group-3" transform="translate(0.545977, 8.000000)" stroke="#262262">
+                    <path d="M38.3473263,20.3478261 L69.2613215,51.3063018" id="Line" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M70.3013493,20.3478261 L101.215345,51.3063018" id="Line" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="translate(85.931034, 36.000000) scale(-1, 1) translate(-85.931034, -36.000000) "></path>
+                    <rect id="Rectangle" stroke-width="4" x="2.45402299" y="2" width="135" height="68" rx="3"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
