@@ -112,7 +112,6 @@ src:
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
 
 img.demo {
   opacity: 0.6;
@@ -176,7 +175,7 @@ white {
 }
 
 body {
-/*    font-family: 'Franklin Gothic Book';*/
+    font-family: 'Franklin Gothic Book';
     font-weight: 0;
     font-size: 18px;
 
@@ -607,10 +606,10 @@ Data filter
 }
 
 #work p{
-   font-family: 'Franklin Gothic Book';
+   font-family: 'DIN Alternate Bold';
    font-size: 18px; 
    color: black;
-   opacity: 0.8;
+   opacity: 0.5;
    text-align: left;
 }
 
@@ -625,7 +624,7 @@ Data filter
 
 #work h4 {
 	font-weight: 300;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'DIN Alternate Bold';
     font-style: italic;
     font-size: 15px;
 	color: white;
