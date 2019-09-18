@@ -403,7 +403,8 @@ Data filter
 ========================================================================== */
 
 #headerwrap {
-    background-image: url(../img/portfolio/top2.png);
+    background-image: linear-gradient(-45deg, #1DD9B6, black);
+/*    background-image: url(../img/portfolio/top2.png);*/
 	margin-top: 0px;
 	padding-top: 200px;
     padding-bottom: 20px;
@@ -524,11 +525,11 @@ Data filter
 }
 
 #about ul li {
-	font-size: 18px;
+	font-size: 16px;
     font-family: 'Franklin Gothic Medium';
     text-align: left;
 	color: white;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
  
 .scrollToTop {
@@ -708,6 +709,17 @@ Data filter
 	background-image: url(../img/portfolio/ui.png);
 }
 
+.ch-img-11 { 
+	background-image: url(../img/portfolio/finance.jpg);
+}
+
+.ch-img-12 { 
+	background-image: url(../img/portfolio/price.jpg);
+}
+
+.ch-img-13 { 
+	background-image: url(../img/portfolio/title.jpg);
+}
 
 .ch-item:hover{
     transition: .25s ease;
@@ -978,6 +990,100 @@ Research
 }
 
 
+
+/* ==========================================================================
+  title
+
+========================================================================== */
+
+#titletop {	
+/*	background-image: url(../img/fabby/bg.png);*/
+    no-repeat center top;
+	text-align:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 450px;
+	width: 100%;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#titleCon {
+    color: black;
+    background-color: #ffffff;
+}
+
+#titleCon h2{
+    opacity: 0.8;
+    font-size: 20px;
+    font-family: 'Franklin Gothic medium';
+}
+
+#titleCon h4{
+    opacity: 0.8;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic medium';
+    color: black;
+}
+
+#titleCon p{
+    opacity: 0.9;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Book';
+    color: black;
+
+}
+
+#titleCon ol{
+    opacity: 0.8;
+}
+
+#titleCon a{
+    color: black;
+    text-decoration: underline;
+}
+
+#titleCon a:hover{
+    color: #E63946;
+}
+
+#titleCon img{
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.emphasis {
+    color: #D0021B;
+    font-weight: 500;
+    font-family: 'Franklin Gothic medium';
+}
+
+.problem {
+    color: #F8941F;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.str {
+    font-size: 22px;
+    color: #9ED9D0;
+}
+
+
+
 /* ==========================================================================
   Fabby
 
@@ -1053,7 +1159,7 @@ Research
 }
 
 .emphasis {
-    color: #F8941F;
+    color: #D0021B;
     font-weight: 500;
     font-family: 'Franklin Gothic medium';
 }
