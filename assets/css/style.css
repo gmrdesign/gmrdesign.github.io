@@ -37,7 +37,7 @@
 }
 
 @font-face {
-font-family: 'DIN Alternate Bold';
+font-family: 'STHeiti';
 font-style: normal;
 font-weight: normal;
 src: 
@@ -175,7 +175,7 @@ white {
 }
 
 body {
-    font-family: 'Franklin Gothic Book';
+    font-family: 'SimHei';
     font-weight: 0;
     font-size: 18px;
 
@@ -183,11 +183,12 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+/*
 h1, h2, h3, h4, h5, h6 {
     font-family:'Franklin Gothic Book';
 }
+*/
 p {
-/*    color: white; */
 }
 
 @media screen and (max-height: 450px) {
@@ -206,9 +207,9 @@ p {
 
 @media (min-width: 768px){
     .navbar-default .navbar-nav {
-        font-family:'Franklin Gothic Medium';
-        font-size: 18px;
-        margin-top: 25px;
+        font-family:'SimHei';
+        font-size: 20px;
+        margin-top: 28px;
         display: inline-block;
         float: none;
     }
@@ -343,7 +344,7 @@ p {
 
 #motion p{
     font-size: 18px;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'SimHei';
     text-align: center;
 }
 
@@ -385,14 +386,14 @@ Data filter
 .btn-default {
     font-size: 16px;
     font-style: italic;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'SimHei';
     background: transparent;
     color: #009988;
 }
 .btn.active{
     font-size: 16px;
     font-style: italic;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'SimHei';
     background: transparent;
     box-shadow: none;
     color: #FFEB00;
@@ -403,8 +404,7 @@ Data filter
 ========================================================================== */
 
 #headerwrap {
-    background-image: linear-gradient(-45deg, #1DD9B6, black);
-/*    background-image: url(../img/portfolio/top2.png);*/
+    background-image: linear-gradient(-45deg, #6734BF, black);
 	margin-top: 0px;
 	padding-top: 200px;
     padding-bottom: 20px;
@@ -427,12 +427,12 @@ Data filter
     margin-top: 20px;
     font-size: 50px;
 	color: white;
-    font-family: 'DIN Alternate Bold';
+    font-family: 'SimHei';
 }
 
 #headerwrap h3 {
     margin-top: 10px;
-    font-family: 'DIN Alternate Bold';
+    font-family: 'SimHei';
     font-size: 24px;
 	color: white;
 }
@@ -443,7 +443,7 @@ Data filter
 
 #headerwrap h4 {
 	color:white;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'SimHei';
 	padding-top: 10px;
 	padding-bottom: 0px;
     margin-top: 10px;
@@ -452,7 +452,7 @@ Data filter
 
 #headerwrap p {
 	color:white;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'SimHei';
     font-style: italic;
 	padding-top: 30px;
 	padding-bottom: 10px;
@@ -461,7 +461,7 @@ Data filter
 
 #headerwrap a {
 	color:#FFEB00;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'SimHei';
     font-style: italic;
 	padding-top: 80px;
 	padding-bottom: 10px;
@@ -485,7 +485,7 @@ Data filter
 #about p {
     margin-top: 0px;
 	font-size: 18px;
-    font-family: 'Franklin Gothic medium';
+    font-family: 'SimHei';
     text-align: left;
 	color: white;
 }
@@ -494,7 +494,7 @@ Data filter
     margin-top: 2px;
     margin-bottom: 2px;
 	font-size: 16px;
-    font-family: 'Franklin Gothic medium';
+    font-family: 'SimHei';
     text-align: left;
 	color: white;
 }
@@ -526,7 +526,7 @@ Data filter
 
 #about ul li {
 	font-size: 16px;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'SimHei';
     text-align: left;
 	color: white;
     margin-bottom: 3px;
@@ -589,7 +589,7 @@ Data filter
 }
 
 #footerwrap h5 {
-    font-family: "Franklin Gothic Medium";
+    font-family: "SimHei";
     margin-left: 0px;
     margin-top: 5px;
 	font-size: 14px;
@@ -607,7 +607,7 @@ Data filter
 }
 
 #work p{
-   font-family: 'DIN Alternate Bold';
+   font-family: 'SimHei';
    font-size: 18px; 
    color: black;
    opacity: 0.5;
@@ -617,7 +617,7 @@ Data filter
 #work h3 {
     text-align: left;
 	font-weight: 300;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'SimHei';
     font-size: 24px;
 	color: black;
     opacity: 0.7;
@@ -625,7 +625,7 @@ Data filter
 
 #work h4 {
 	font-weight: 300;
-    font-family: 'DIN Alternate Bold';
+    font-family: 'SimHei';
     font-style: italic;
     font-size: 15px;
 	color: white;
@@ -635,7 +635,7 @@ Data filter
 #photo p{
     text-align: left;
     font-size: 18px;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'SimHei';
     padding-bottom: 10px;
     color: white;
 }
@@ -763,7 +763,7 @@ Data filter
     font-size: 60px;
     color: black;
     opacity: 0.8;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'SimHei';
     margin-bottom: 0PX;
 }
 
@@ -778,14 +778,14 @@ Data filter
     margin-bottom: 5PX;
     margin-bottom: 50PX;
     color:black;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'SimHei';
 }
 
 #projectInfo p{
     opacity: 0.9;
     color:black;
     font-size: 18px;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'SimHei';
     font-weight: 400;
 }
 
@@ -821,7 +821,7 @@ Data filter
 }
 .infoRole h4{
     opacity: 0.6;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'SimHei';
     margin-bottom: 5px;
     margin-top: 5px;
     font-size: 14px;
@@ -962,7 +962,7 @@ Research
     margin-top: 100px;
     margin-bottom: 20px;
     padding-left: 0px;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'SimHei';
     color: black;
 }
 
@@ -970,7 +970,7 @@ Research
     opacity: 0.9;
     color: black;
     font-size: 18px;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'SimHei';
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -986,7 +986,7 @@ Research
 .emphasisr{
     color: #15B1A5;
     font-weight: 500;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'SimHei';
 }
 
 
@@ -1026,7 +1026,7 @@ Research
 #titleCon h2{
     opacity: 0.8;
     font-size: 20px;
-    font-family: 'Franklin Gothic medium';
+    font-family: 'SimHei';
 }
 
 #titleCon h4{
@@ -1034,14 +1034,14 @@ Research
     font-size: 30px;
     margin-top: 100px;
     margin-bottom: 10px;
-    font-family: 'Franklin Gothic medium';
+    font-family: 'SimHei';
     color: black;
 }
 
 #titleCon p{
     opacity: 0.9;
     font-size: 18px;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'SimHei';
     color: black;
 
 }
@@ -1068,7 +1068,7 @@ Research
 .emphasis {
     color: #D0021B;
     font-weight: 500;
-    font-family: 'Franklin Gothic medium';
+    font-family: 'SimHei';
 }
 
 .problem {
