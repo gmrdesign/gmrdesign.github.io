@@ -202,7 +202,7 @@ p {
     transition: all 0.5s;
     text-align: center;
     list-style: none;
-    background: none; 
+    background-color: transparent; 
 }
 
 @media (min-width: 768px){
@@ -669,23 +669,23 @@ Data filter
 }
 
 .ch-img-1 { 
-	background-image: url(../img/portfolio/rl.png);
+	background-image: url(../img/portfolio/rl.jpg);
 }
 
 .ch-img-2 { 
-	background-image: url(../img/portfolio/fabby.png);
+	background-image: url(../img/portfolio/fabby.jpg);
 }
 
 .ch-img-3 { 
-	background-image: url(../img/portfolio/room.png);
+	background-image: url(../img/portfolio/room.jpg);
 }
 
 .ch-img-4 { 
-	background-image: url(../img/portfolio/light.png);
+	background-image: url(../img/portfolio/light.jpg);
 }
 
 .ch-img-5 { 
-	background-image: url(../img/portfolio/followU.png);
+	background-image: url(../img/portfolio/followU.jpg);
 }
 
 .ch-img-6 { 
@@ -697,7 +697,7 @@ Data filter
 }
 
 .ch-img-8 { 
-	background-image: url(../img/portfolio/ugo.png);
+	background-image: url(../img/portfolio/ugo.jpg);
 }
 
 .ch-img-9 { 
@@ -705,7 +705,7 @@ Data filter
 }
 
 .ch-img-10 { 
-	background-image: url(../img/portfolio/ui.png);
+	background-image: url(../img/portfolio/ui.jpg);
 }
 
 .ch-img-11 { 
