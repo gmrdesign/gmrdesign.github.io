@@ -37,7 +37,7 @@
 }
 
 @font-face {
-font-family: 'Franklin Gothic Book';
+font-family: 'DIN Alternate Bold';
 font-style: normal;
 font-weight: normal;
 src: 
@@ -183,18 +183,14 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-/*
 h1, h2, h3, h4, h5, h6 {
     font-family:'Franklin Gothic Book';
 }
-<<<<<<< HEAD
 h1{
     color: black
 }
-=======
-*/
->>>>>>> e1e0c99238fdab74325885b31a0d884dff4f21fc
 p {
+/*    color: white; */
 }
 
 .rounded-image {
@@ -212,14 +208,14 @@ p {
     transition: all 0.5s;
     text-align: center;
     list-style: none;
-    background-color: transparent; 
+    background: none; 
 }
 
 @media (min-width: 768px){
     .navbar-default .navbar-nav {
         font-family:'Franklin Gothic Medium';
-        font-size: 20px;
-        margin-top: 28px;
+        font-size: 18px;
+        margin-top: 25px;
         display: inline-block;
         float: none;
     }
@@ -355,7 +351,7 @@ p {
 
 #motion p{
     font-size: 18px;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Book';
     text-align: center;
 }
 
@@ -415,12 +411,8 @@ Data filter
 ========================================================================== */
 
 #headerwrap {
-<<<<<<< HEAD
     /*background-image: linear-gradient(-45deg, #1DD9B6, black);*/
 /*    background-image: url(../img/portfolio/top2.png);*/
-=======
-    background-image: linear-gradient(-45deg, #3BC6AB, black);
->>>>>>> e1e0c99238fdab74325885b31a0d884dff4f21fc
 	margin-top: 0px;
 	padding-top: 200px;
     padding-bottom: 20px;
@@ -441,20 +433,14 @@ Data filter
 
 #headerwrap h1 {
     margin-top: 20px;
-<<<<<<< HEAD
     font-size: 50px;
 	color: black;
     font-family: 'DIN Alternate Bold';
-=======
-    font-size: 70px;
-	color: white;
-    font-family: 'Franklin Gothic Medium';
->>>>>>> e1e0c99238fdab74325885b31a0d884dff4f21fc
 }
 
 #headerwrap h3 {
     margin-top: 10px;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'DIN Alternate Bold';
     font-size: 24px;
 	color: black;
 }
@@ -464,13 +450,8 @@ Data filter
 }
 
 #headerwrap h4 {
-<<<<<<< HEAD
 	color:black;
     font-family: 'Franklin Gothic Book';
-=======
-	color:white;
-    font-family: 'Franklin Gothic Medium';
->>>>>>> e1e0c99238fdab74325885b31a0d884dff4f21fc
 	padding-top: 10px;
 	padding-bottom: 0px;
     margin-top: 10px;
@@ -488,7 +469,7 @@ Data filter
 
 #headerwrap a {
 	color:#FFEB00;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Book';
     font-style: italic;
 	padding-top: 80px;
 	padding-bottom: 10px;
@@ -513,18 +494,14 @@ Data filter
 #about {
 	padding-top: 150px;
 	padding-bottom: 140px;
-<<<<<<< HEAD
 /*    background-image: url(../img/portfolio/top.png);*/
 	background: linear-gradient(150deg, white);
-=======
-	background: linear-gradient(150deg, black, #00E5CB);
->>>>>>> e1e0c99238fdab74325885b31a0d884dff4f21fc
 }
 
 #about p {
     margin-top: 0px;
 	font-size: 18px;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Franklin Gothic medium';
     text-align: left;
 	color: black;
 }
@@ -533,7 +510,7 @@ Data filter
     margin-top: 2px;
     margin-bottom: 2px;
 	font-size: 16px;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic medium';
     text-align: left;
 	color: black;
 }
@@ -564,16 +541,11 @@ Data filter
 }
 
 #about ul li {
-	font-size: 16px;
+	font-size: 18px;
     font-family: 'Franklin Gothic Medium';
     text-align: left;
-<<<<<<< HEAD
 	color: black;
     margin-bottom: 10px;
-=======
-	color: white;
-    margin-bottom: 3px;
->>>>>>> e1e0c99238fdab74325885b31a0d884dff4f21fc
 }
  
 .scrollToTop {
@@ -609,11 +581,7 @@ Data filter
     margin-top: 100px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-<<<<<<< HEAD
     background-color: black;
-=======
-    background-color: #000000;
->>>>>>> e1e0c99238fdab74325885b31a0d884dff4f21fc
     background-repeat:no-repeat;
     background-position:center;
 }
@@ -637,7 +605,7 @@ Data filter
 }
 
 #footerwrap h5 {
-    font-family: 'Franklin Gothic Medium';
+    font-family: "Franklin Gothic Medium";
     margin-left: 0px;
     margin-top: 5px;
 	font-size: 14px; 
@@ -656,7 +624,7 @@ Data filter
 }
 
 #work p{
-   font-family: 'Franklin Gothic Medium';
+   font-family: 'DIN Alternate Bold';
    font-size: 18px; 
    color: black;
    opacity: 0.5;
@@ -674,7 +642,7 @@ Data filter
 
 #work h4 {
 	font-weight: 300;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'DIN Alternate Bold';
     font-style: italic;
     font-size: 15px;
 	color: white;
@@ -684,7 +652,7 @@ Data filter
 #photo p{
     text-align: left;
     font-size: 18px;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Book';
     padding-bottom: 10px;
     color: white;
 }
@@ -719,29 +687,6 @@ Data filter
 }
 
 .ch-img-1 { 
-<<<<<<< HEAD
-=======
-	background-image: url(../img/portfolio/rl.jpg);
-}
-
-.ch-img-2 { 
-	background-image: url(../img/portfolio/fabby.jpg);
-}
-
-.ch-img-3 { 
-	background-image: url(../img/portfolio/room.jpg);
-}
-
-.ch-img-4 { 
-	background-image: url(../img/portfolio/light.jpg);
-}
-
-.ch-img-5 { 
-	background-image: url(../img/portfolio/followU.jpg);
-}
-
-.ch-img-6 { 
->>>>>>> e1e0c99238fdab74325885b31a0d884dff4f21fc
 	background-image: url(../img/portfolio/asthma.jpg);
 }
 
@@ -770,11 +715,7 @@ Data filter
 }
 
 .ch-img-8 { 
-<<<<<<< HEAD
 	background-image: url(../img/portfolio/light.png);
-=======
-	background-image: url(../img/portfolio/ugo.jpg);
->>>>>>> e1e0c99238fdab74325885b31a0d884dff4f21fc
 }
 
 .ch-img-9 { 
@@ -782,24 +723,9 @@ Data filter
 }
 
 .ch-img-10 { 
-<<<<<<< HEAD
 	background-image: url(../img/practice/valley.jpg);
-=======
-	background-image: url(../img/portfolio/ui.jpg);
->>>>>>> e1e0c99238fdab74325885b31a0d884dff4f21fc
 }
 
-.ch-img-11 { 
-	background-image: url(../img/portfolio/finance.jpg);
-}
-
-.ch-img-12 { 
-	background-image: url(../img/portfolio/price.jpg);
-}
-
-.ch-img-13 { 
-	background-image: url(../img/portfolio/title.jpg);
-}
 
 
 .ch-item:hover{
@@ -844,7 +770,7 @@ Data filter
     font-size: 60px;
     color: black;
     opacity: 0.8;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Franklin Gothic Medium';
     margin-bottom: 0PX;
 }
 
@@ -1043,7 +969,7 @@ Research
     margin-top: 100px;
     margin-bottom: 20px;
     padding-left: 0px;
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Franklin Gothic Medium';
     color: black;
 }
 
@@ -1067,102 +993,8 @@ Research
 .emphasisr{
     color: #CB73EE;
     font-weight: 500;
-    font-family: 'SimHei';
+    font-family: 'Franklin Gothic Medium';
 }
-
-
-
-/* ==========================================================================
-  title
-
-========================================================================== */
-
-#titletop {	
-/*	background-image: url(../img/fabby/bg.png);*/
-    no-repeat center top;
-	text-align:center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 450px;
-	width: 100%;
-    
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#titleCon {
-    color: black;
-    background-color: #ffffff;
-}
-
-#titleCon h2{
-    opacity: 0.8;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Book';
-}
-
-#titleCon h4{
-    opacity: 0.8;
-    font-size: 30px;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    font-family: 'Franklin Gothic Book';
-    color: black;
-}
-
-#titleCon p{
-    opacity: 0.9;
-    font-size: 18px;
-    font-family: 'Franklin Gothic Book';
-    color: black;
-
-}
-
-#titleCon ol{
-    opacity: 0.8;
-}
-
-#titleCon a{
-    color: black;
-    text-decoration: underline;
-}
-
-#titleCon a:hover{
-    color: #E63946;
-}
-
-#titleCon img{
-    margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.emphasis {
-    color: #D0021B;
-    font-weight: 500;
-    font-family: 'Franklin Gothic Book';
-}
-
-.problem {
-    color: #F8941F;
-    font-weight: 500;
-    font-size: 22px;
-}
-
-.str {
-    font-size: 22px;
-    color: #9ED9D0;
-}
-
 
 
 /* ==========================================================================
@@ -1240,7 +1072,7 @@ Research
 }
 
 .emphasis {
-    color: #D0021B;
+    color: #F8941F;
     font-weight: 500;
     font-family: 'Franklin Gothic medium';
 }
