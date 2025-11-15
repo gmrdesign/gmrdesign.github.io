@@ -186,8 +186,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family:'Franklin Gothic Book';
 }
+h1{
+    color: black
+}
 p {
 /*    color: white; */
+}
+
+.rounded-image {
+  border-radius: 10px; /* 这里的数值可以根据需要调整 */
 }
 
 @media screen and (max-height: 450px) {
@@ -221,20 +228,21 @@ p {
 .navbar-default {
     border:#CBCBCB;
     text-align: center;
+    background-color: white;
 }
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
-    color: #FFEB00;
+    color: #CB73EE;
 }
 
 .navbar-default .navbar-nav > li {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
+	color: black;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -243,7 +251,7 @@ p {
     
     opacity: 1; 
     background-color: transparent;
-    color: #FFEB00;
+    color: #CB73EE;
 }
 
 /* ==========================================================================
@@ -403,7 +411,8 @@ Data filter
 ========================================================================== */
 
 #headerwrap {
-    background-image: url(../img/portfolio/top2.png);
+    /*background-image: linear-gradient(-45deg, #1DD9B6, black);*/
+/*    background-image: url(../img/portfolio/top2.png);*/
 	margin-top: 0px;
 	padding-top: 200px;
     padding-bottom: 20px;
@@ -425,7 +434,7 @@ Data filter
 #headerwrap h1 {
     margin-top: 20px;
     font-size: 50px;
-	color: white;
+	color: black;
     font-family: 'DIN Alternate Bold';
 }
 
@@ -433,7 +442,7 @@ Data filter
     margin-top: 10px;
     font-family: 'DIN Alternate Bold';
     font-size: 24px;
-	color: white;
+	color: black;
 }
 
 #headerwrap h2 {
@@ -441,7 +450,7 @@ Data filter
 }
 
 #headerwrap h4 {
-	color:white;
+	color:black;
     font-family: 'Franklin Gothic Book';
 	padding-top: 10px;
 	padding-bottom: 0px;
@@ -450,7 +459,7 @@ Data filter
 }
 
 #headerwrap p {
-	color:white;
+	color:black;
     font-family: 'Franklin Gothic Book';
     font-style: italic;
 	padding-top: 30px;
@@ -473,12 +482,20 @@ Data filter
     text-decoration: underline;
 }
 
+  button {
+        background-color: #000;
+        border: .10px solid crimson;
+        border-radius: 10px;
+        color: #fff;
+        padding: 8px;
+      }
+
 /*about*/
 #about {
 	padding-top: 150px;
 	padding-bottom: 140px;
 /*    background-image: url(../img/portfolio/top.png);*/
-	background: linear-gradient(150deg, black, #00E5CB);
+	background: linear-gradient(150deg, white);
 }
 
 #about p {
@@ -486,7 +503,7 @@ Data filter
 	font-size: 18px;
     font-family: 'Franklin Gothic medium';
     text-align: left;
-	color: white;
+	color: black;
 }
 
 #about h6 {
@@ -495,23 +512,23 @@ Data filter
 	font-size: 16px;
     font-family: 'Franklin Gothic medium';
     text-align: left;
-	color: white;
+	color: black;
 }
 
 #about a {
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
 #about a:hover
 {
-    color: #FFEB00;
+    color: #CB73EE;
     text-decoration: underline;
 }
 
 #about a:hover
 {
-    color: #FFEB00;
+    color: #CB73EE;
     text-decoration: underline;
 }
 
@@ -520,14 +537,14 @@ Data filter
     margin-bottom: 10px;
 }
 #about img:hover {
-    color: #FFEB00;
+    color: #CB73EE;
 }
 
 #about ul li {
 	font-size: 18px;
     font-family: 'Franklin Gothic Medium';
     text-align: left;
-	color: white;
+	color: black;
     margin-bottom: 10px;
 }
  
@@ -564,7 +581,7 @@ Data filter
     margin-top: 100px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-    background-image: url(../img/portfolio/bottom.png);
+    background-color: black;
     background-repeat:no-repeat;
     background-position:center;
 }
@@ -573,7 +590,7 @@ Data filter
     margin-top: 5px;
 	margin-right: 0px;
     margin-left: 0px;
-    color: white;
+    color:white;
     text-decoration:underline;
 }
 
@@ -583,7 +600,7 @@ Data filter
 
 #footerwrap a:hover
 {
-    color: #FFEB00;
+    color: #CB73EE;
     text-decoration: underline;
 }
 
@@ -591,7 +608,7 @@ Data filter
     font-family: "Franklin Gothic Medium";
     margin-left: 0px;
     margin-top: 5px;
-	font-size: 14px;
+	font-size: 14px; 
 }
 
 #footerwrap h6 {
@@ -603,6 +620,7 @@ Data filter
 
 #work {
     padding-top: 50px;
+    background-color: #FBFBFB;
 }
 
 #work p{
@@ -669,49 +687,50 @@ Data filter
 }
 
 .ch-img-1 { 
-	background-image: url(../img/portfolio/rl.png);
-}
-
-.ch-img-2 { 
-	background-image: url(../img/portfolio/fabby.png);
-}
-
-.ch-img-3 { 
-	background-image: url(../img/portfolio/room.png);
-}
-
-.ch-img-4 { 
-	background-image: url(../img/portfolio/light.png);
-}
-
-.ch-img-5 { 
-	background-image: url(../img/portfolio/followU.png);
-}
-
-.ch-img-6 { 
 	background-image: url(../img/portfolio/asthma.jpg);
 }
 
+.ch-img-2 { 
+	background-image: url(../img/portfolio/rl.png);
+}
+
+.ch-img-3 { 
+	background-image: url(../img/portfolio/financial.jpg);
+}
+
+.ch-img-4 { 
+	background-image: url(../img/portfolio/title.png);
+}
+
+.ch-img-5 { 
+	background-image: url(../img/portfolio/fabby.png);
+}
+
+.ch-img-6 { 
+	background-image: url(../img/portfolio/room.png);
+}
+
 .ch-img-7 { 
-	background-image: url(../img/portfolio/cooking.jpg);
+	background-image: url(../img/portfolio/followU.png);
 }
 
 .ch-img-8 { 
-	background-image: url(../img/portfolio/ugo.png);
+	background-image: url(../img/portfolio/light.png);
 }
 
 .ch-img-9 { 
-	background-image: url(../img/practice/valley.jpg);
+	background-image: url(../img/portfolio/ugo.png);
 }
 
 .ch-img-10 { 
-	background-image: url(../img/portfolio/ui.png);
+	background-image: url(../img/practice/valley.jpg);
 }
+
 
 
 .ch-item:hover{
     transition: .25s ease;
-    border-left: 10px solid #00A492;
+    border-left: 10px solid #CB73EE;
 	box-shadow: 
         inset 450px 0px 0px rgba(0,0,0, 0.7)
 
@@ -908,7 +927,7 @@ Research
 ========================================================================== */
 #researchtop {	
     background-image: url("../img/research/top.png");
-    no-repeat center top;
+    /*no-repeat center top;*/
 /*	text-align:center;*/
     padding-top: 50px;
     padding-bottom: 50px;
@@ -972,7 +991,7 @@ Research
     color: #E63946;
 }
 .emphasisr{
-    color: #15B1A5;
+    color: #CB73EE;
     font-weight: 500;
     font-family: 'Franklin Gothic Medium';
 }
